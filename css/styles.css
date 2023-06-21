@@ -214,6 +214,16 @@ img {
 
 /* Section 2 */
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .page-section-goals {
   padding: 120px 0;
 }
