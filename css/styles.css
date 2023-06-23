@@ -6,6 +6,7 @@
   --buttoncolor: #4d5ae5;
   --buttonbackground: #f4f4fd;
   --buttonborder: #e7e9fc;
+  --iconcolor: #8e8f99;
 }
 
 body {
@@ -333,6 +334,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-section-team-div-ul-li-a:hover,
@@ -342,6 +344,45 @@ img {
 
 .main-section-team-div-ul-li-a-svg {
   fill: var(--buttonbackground);
+}
+
+/* Section 5 */
+
+.main-section-customers {
+  padding: 120px 0;
+}
+
+.main-section-customers-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.main-section-customers-ul-li {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-section-customers-ul-li-a {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--iconcolor);
+}
+
+.main-section-customers-ul-li-a:hover,
+.main-section-customers-ul-li-a:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.main-section-customers-ul-li-a-svg {
+  fill: currentColor;
 }
 
 /* Footer */
