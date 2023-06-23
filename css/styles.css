@@ -601,4 +601,6 @@ img {
 .modal-close-icon:hover,
 .modal-close-icon:focus {
   fill: #ffffff;
+  border: none;
+  background-color: #404bbf;
 }
