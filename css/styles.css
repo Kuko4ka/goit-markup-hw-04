@@ -539,8 +539,8 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.main-section-example-ul-li-a.main-section-example-ul-li-a-divimg-p:hover,
-.main-section-example-ul-li-a.main-section-example-ul-li-a-divimg-p:focus {
+.main-section-example-ul-li-a:hover,
+.main-section-example-ul-li-a:focus > .main-section-example-ul-li-a-divimg-p {
   transform: translateY(0%);
 }
 
