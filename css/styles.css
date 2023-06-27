@@ -61,6 +61,10 @@ img {
   display: block;
 }
 
+::after {
+  display: block;
+}
+
 /* Header */
 
 .page-header {
@@ -120,7 +124,7 @@ img {
   color: #404bbf;
 }
 
-.header-ul-li-a-studio::after {
+.header-ul-li-a-page::after {
   content: "";
   position: absolute;
   left: 0;
